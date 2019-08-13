@@ -1,0 +1,25 @@
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+
+  & > li {
+    transition: 0.2s;
+    padding: 4px 6px;
+    border-left: 4px solid;
+    border-color: transparent;
+
+    &:hover {
+      border-color: #cdad62;
+      background-color: $main-gold-color;
+    }
+
+    & > a {
+      color: #fff;
+      font-size: 14px;
+      font-family: $main-font;
+      text-transform: uppercase;
+    }
+  }
+}
